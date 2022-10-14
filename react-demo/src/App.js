@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Hithere from './Props_section/Hithere';
-import myChild from '../src/Props_section/Child';
+
 
 function App() {
   return (
@@ -14,7 +14,6 @@ function App() {
             <h6>i didnt break it </h6>
           </body>
           <h2><Hithere/></h2>
-          <h4><myChild/></h4>
         </p>
         <a
           className="App-link"

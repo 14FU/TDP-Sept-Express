@@ -1,14 +1,10 @@
 function Child(properties) {
-    const myChild = {
-        minion: ['Thom', 'Mike','Mimi'],
-        age: 36
 
-    }
     return(
         <>
+        <p>{properties.name}</p>
         <p>{properties.minion}</p>
-        <p>{properties.age}</p>
         </>
     )
 }
-export default Child();
+export default Child;

@@ -1,4 +1,4 @@
-import myChild from '../Props_section/Child'
+import Child from '../Props_section/Child'
 function Hithere() {
     const intro = {
         firstname: "Billy",
@@ -10,8 +10,10 @@ function Hithere() {
     return (
         <>
         <h1> thisshould be my parent jsx </h1>
-        <myChild
+        <Child
             name = "Harry"
+            age = {44}
+            minion = {['thome'," ", 'mimi']}
         />
         </>
         )
