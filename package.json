@@ -1,7 +1,6 @@
 {
   "name": "express-demo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/ --reporter=nyan --exit",
@@ -18,5 +17,18 @@
     "mocha": "^10.0.0",
     "mongoose": "^6.6.5",
     "nodemon": "^2.0.20"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/14FU/TDP-Sept-Express.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/14FU/TDP-Sept-Express/issues"
+  },
+  "homepage": "https://github.com/14FU/TDP-Sept-Express#readme",
+  "description": ""
 }
