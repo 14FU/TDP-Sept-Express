@@ -15,6 +15,17 @@ const Products = () => {
 //call the setItemName and pass in the target.value 
 const newItem = ({target}) => {
     setItemName (target.value);
-};
+}// 5- need to link the new item a a prop to the AddProduct
+return (<AddProduct newItem= {newItem}/>);
+// 5- head to AddProduct.jsx to continue the props 
 
-export deafult Products;
+// 6&7 - create two fucntions one for array to save in
+//and one for if theres any errors 
+
+const submitForm=(event)=> {event.preventDefault();}
+const handleAdd=()=>{setItems(items =>[...items,itemName])}
+
+
+
+
+export default Products;
