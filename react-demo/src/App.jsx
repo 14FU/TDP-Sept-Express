@@ -3,6 +3,7 @@ import './App.css';
 import Hithere from './Props_section/Hithere';
 import data from './Props_section/Data.json';
 import Static from './Props_section/Static';
+import Products from '../src/lifting_state/Searchlist';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <h6>i didnt break it </h6>
           </body>
           <h2><Hithere/></h2>
+          <h1><Products/></h1>
           {
             data.map (s => {return <Static name={s.name} age= {s.age} dream= {s.dream}/>})
           }
