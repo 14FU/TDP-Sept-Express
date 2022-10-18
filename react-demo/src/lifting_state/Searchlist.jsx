@@ -16,7 +16,17 @@ const Products = () => {
 const newItem = ({target}) => {
     setItemName (target.value);
 }// 5- need to link the new item a a prop to the AddProduct
-return (<AddProduct newItem= {newItem}/>);
+
+//8.2 - add the submit form and handleadd to the return 
+
+//11 & 12 - call the cart component as a child after the addporduct and pass the items
+return (
+    <>
+        <AddProduct newItems= {newItems} submitHandler={submitForm} handleAdd={handleAdd}/>
+        <Cart items ={items}/>
+    </>
+);
+
 // 5- head to AddProduct.jsx to continue the props 
 
 // 6&7 - create two fucntions one for array to save in
@@ -24,6 +34,7 @@ return (<AddProduct newItem= {newItem}/>);
 
 const submitForm=(event)=> {event.preventDefault();}
 const handleAdd=()=>{setItems(items =>[...items,itemName])}
+// 8.1- add these to the retrun 
 
 
 
