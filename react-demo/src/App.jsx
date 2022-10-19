@@ -31,7 +31,7 @@ function App() {
             <button type="button">User</button>
           </Link>
           <Link to="/Contact">
-            <button type = "buttton">Contact</button>
+            <button type = "buttton">Contact/</button>>
           </Link>
 
         </nav>
