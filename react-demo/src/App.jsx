@@ -27,13 +27,14 @@ function App() {
           <Link to="/Home">
             Home
           </Link>
+          <p> </p>
           <Link to="/User">
             <button type="button">User</button>
           </Link>
+          <p> </p>
           <Link to="/Contact">
-            <button type = "buttton">Contact/</button>>
+            <button type = "buttton">Contact</button>
           </Link>
-
         </nav>
           </body>
           <Routes>
